@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+  /*padding: 20px;*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.indexHeader{
+  background: #efefef;
+  border-radius: 20px;
+  width: 90%;
+  height: 75px;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header1{
+   width: 20%;
+ }
+.header2{
+  min-width: 140px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #666;
+}
+.header3{
+  flex: 1;
+}
+.item1{
+  width: 100%;
+  text-align: left;
+  padding-left: 100px;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+}
+.indexBody{
+  height: 400px;
+  margin-top: 20px;
+  /*border-radius:5px;*/
+  width: 80%;
+  margin-left: 10%;
+  /*background: #efefef;*/
+}
+
+.manageItem{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10%;
+  text-align: left;
+  height: 88px;
+}
+
+.itemTitle{
+  font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  height: 28px;
+}
+.item-container{
+  width: 48%;
+  margin: 10px 0;
+  height: 88px;
+  background: rgba(242, 242, 242, 1);
+}
+
+.carInfoItem{
+  display: flex;
+  height: 25px;
+}
+.car-info-name{
+  width: 100px;
+}
+.navi-home-btn{
+  width:90px;
+  height: 35px;
+  line-height: 35px;
+  background: #61dafb;
+  color: #fff;
+  border-radius: 5px;
+}
+.sim-container{
+  width:48%;
+  background: #fefefe;
+  text-align: left;
+}
+
+.simInfoItem{
+  display: flex;
+  padding: 0 30px;
+  justify-content: space-between;
+  height: 30px;
+}
